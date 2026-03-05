@@ -26,3 +26,11 @@ export interface FollowUpRecord {
   createdAt: string;
   salespersonId: string;
 }
+export type FollowUpType = '电话' | '会议' | '上门拜访';
+
+export interface FollowUpRecord {
+  id: string;
+  type: FollowUpType;
+  content: string;
+  date: string;
+}
