@@ -3,7 +3,7 @@
 
 import { useState } from "react";
 import { useCrmStore } from "@/lib/store";
-import { FollowUpRecord, FollowUpType } from "@/lib/types";
+import { FollowUpRecord } from "@/lib/types";
 import { toast } from "sonner";
 
 interface EditFollowUpFormProps {
